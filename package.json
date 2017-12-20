@@ -1,6 +1,6 @@
 {
   "name": "arraysorts",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "The NPM package for sorting the array using standard algorithms.",
   "main": "index.js",
   "scripts": {

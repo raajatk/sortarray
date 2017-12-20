@@ -21,7 +21,7 @@ var algoName = 'bubble';
 async.auto({
   fetchSortedArray:function(next){
     arr = [23,34,12,4,56,21,4];
-    sortarray(arr,algoName,next)}
+    arraysorts(arr,algoName,next)}
   },function(err,results){
     console.log(algoName,"-->",results.fetchSortedArray)
 })
