@@ -12,16 +12,9 @@ module.exports = function(array, algoName, callback) {
         insertionSort(array, next);
       }else if (algoName == 'bubble') {
         bubbleSort(array, next);
-      }else if (algoName == 'merge') {
-        mergeSort(array, next);
-      }else if (algoName == 'quick') {
-        quickSort(array, next);
-      }else if (algoName == 'heap') {
-        heapSort(array, next);
       }
     },
   },function(err, results){
-    // console.log("the results are ",err,results);
       var sortedArray = results.sortArray;
       callback(null,sortedArray);
   });
@@ -115,18 +108,5 @@ module.exports = function(array, algoName, callback) {
         fnCallback(null,array);
     })
   };
-
-  function mergeSort(array, fnCallback){
-
-  };
-
-  function quickSort(array, fnCallback){
-
-  };
-
-  function heapSort(array, fnCallback){
-
-  };
-
 
 };
