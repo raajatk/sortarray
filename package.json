@@ -1,6 +1,6 @@
 {
-  "name": "sortarray",
-  "version": "0.0.1",
+  "name": "arraysorts",
+  "version": "0.0.2",
   "description": "The NPM package for sorting the array using standard algorithms.",
   "main": "index.js",
   "scripts": {
@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/rajatk69/sortarray/issues"
   },
-  "homepage": "https://github.com/rajatk69/sortarray#readme"
+  "homepage": "https://github.com/rajatk69/sortarray#readme",
+  "dependencies":{
+    "async": "^2.4.0"
+  }
+
 }

@@ -1,9 +1,9 @@
-# sortarray
+# arraysorts
 The NPM package for sorting the array using standard algorithms.
 
 ## Installation
 ```
-npm install sortarray
+npm install arraysorts
 ```
 
 ## Running Example File
@@ -13,7 +13,7 @@ node example.js
 
 ## Example Code
 ```
-var sortarray = require('sortarray');
+var arraysorts = require('arraysorts');
 var async = require('async');
 
 var algoName = 'bubble';
