@@ -1,0 +1,19 @@
+{
+  "name": "sortarray",
+  "version": "0.0.1",
+  "description": "The NPM package for sorting the array using standard algorithms.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rajatk69/sortarray.git"
+  },
+  "author": "“Rajat <rajatkatiyar2009@gmail.com> (http://www.nodejscafe.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rajatk69/sortarray/issues"
+  },
+  "homepage": "https://github.com/rajatk69/sortarray#readme"
+}
